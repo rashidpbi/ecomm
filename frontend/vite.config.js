@@ -9,6 +9,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
+        'axios',
         'react',
         'react-dom',
         'react-router-dom',
