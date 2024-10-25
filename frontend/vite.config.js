@@ -9,10 +9,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'axios',
         'react-router-dom',
-        'react-toastify',
-        'react-toastify/dist/ReactToastify.css',
       ],
     },
   },
