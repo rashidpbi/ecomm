@@ -13,7 +13,7 @@ export default defineConfig({
         'react-dom',
         'react-router',
         'react-router-dom',
-        'react-toastify'
+        'react-toastify',
       ],
     },
   },
