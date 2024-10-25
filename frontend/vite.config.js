@@ -5,12 +5,5 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 5173,
-  },
-  build: {
-    rollupOptions: {
-      external: [
-        'react-router-dom',
-      ],
-    },
-  },
+  }
 });
