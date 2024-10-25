@@ -13,6 +13,7 @@ export default defineConfig({
         'react-dom',
         'react-router-dom',
         'react-toastify',
+        'react-toastify/dist/ReactToastify.css'
       ],
     },
   },
